@@ -114,13 +114,19 @@ int main(void)
     {CY_ASSERT(0);}
 
     /*Initialize BGT60TR13C Power Control pin*/
-    result = cyhal_gpio_init(ARDU_IO3, CYHAL_GPIO_DIR_INPUT, CYHAL_GPIO_DRIVE_NONE, true); /*Keep it OFF*/
+    result = cyhal_gpio_init(ARDU_IO3, CYHAL_GPIO_DIR_INPUT, CYHAL_GPIO_DRIVE_NONE, false); /*Keep it OFF*/
+    if (result != CY_RSLT_SUCCESS)
+    {CY_ASSERT(0);}
+
+    /*Initialize NJR4652F2S2 POWER pin*/
+    result = cyhal_gpio_init(ARDU_IO7, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_STRONG, true); /*Turn it ON*/
     if (result != CY_RSLT_SUCCESS)
     {CY_ASSERT(0);}
 
     /*Initialize NJR4652F2S2 RESET pin*/
-    result = cyhal_gpio_init(ARDU_IO6, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_OPENDRAINDRIVESLOW, false); /*Keep it OFF*/
+    result = cyhal_gpio_init(ARDU_IO6, CYHAL_GPIO_DIR_OUTPUT, CYHAL_GPIO_DRIVE_OPENDRAINDRIVESLOW, false); /* Keep it LOW*/
     if (result != CY_RSLT_SUCCESS)
+
     {CY_ASSERT(0);}
     CyDelay(100);
 

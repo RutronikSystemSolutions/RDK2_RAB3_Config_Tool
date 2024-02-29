@@ -10,7 +10,7 @@ Infineon "Config Tool" detects only the NJR4652F2 module of the RAB3-Radar adapt
 
 - [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.1**]
 - [Infineon Config Tool](https://www.infineon.com/dgdl/Infineon-BGT60TR13C_Config_Tool-Software-v02_00-EN.zip?fileId=5546d4627617cd8301763cc064e22550&da=t) [tested with **Ver: 1.5.0**]
-- [RAB3-Radar Rev.0](https://github.com/RutronikSystemSolutions/RAB3_Radar_Hardware_Files/tree/main/Rev0) Rutronik Adapter Board
+- [RAB3-Radar Rev.1](https://github.com/RutronikSystemSolutions/RAB3_Radar_Hardware_Files) [official first release] Rutronik Adapter Board
 - [RDK2](https://github.com/RutronikSystemSolutions/RDK2_Documents) Rutronik Development Kit
 
 ## Using the code example
