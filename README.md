@@ -8,7 +8,7 @@ Infineon "Config Tool" detects only the NJR4652F2 module of the RAB3-Radar adapt
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v3.x** [built with **v3.1**]
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) **v2025.4.0** [built with **v3.1**]
 - [Infineon Config Tool](https://www.infineon.com/dgdl/Infineon-BGT60TR13C_Config_Tool-Software-v02_00-EN.zip?fileId=5546d4627617cd8301763cc064e22550&da=t) [tested with **Ver: 1.5.0**]
 - [RAB3-Radar Rev.1](https://github.com/RutronikSystemSolutions/RAB3_Radar_Hardware_Files) [official first release] Rutronik Adapter Board
 - [RDK2](https://github.com/RutronikSystemSolutions/RDK2_Documents) Rutronik Development Kit
@@ -26,9 +26,9 @@ Create the project and open it using one of the following:
 
 1. Click the **New Application** link in the **Quick Panel** (or, use **File** > **New** > **ModusToolbox&trade; Application**). This launches the [Project Creator](https://www.infineon.com/ModusToolboxProjectCreator) tool.
 
-2. Pick a RDK2 kit from the list shown in the **Project Creator - Choose Board Support Package (BSP)** dialog.
+2. Pick an RDK2 kit from the list shown in the **Project Creator - Choose Board Support Package (BSP)** dialog.
 
-   When you select a RDK2, the example is reconfigured automatically to work with the kit. To work with a different supported kit later, use the [Library Manager](https://www.infineon.com/ModusToolboxLibraryManager) to choose the BSP for the RDK2. You can use the Library Manager to select or update the BSP and firmware libraries used in this application. To access the Library Manager, click the link from the **Quick Panel**.
+   When you select an RDK2, the example is reconfigured automatically to work with the kit. To work with a different supported kit later, use the [Library Manager](https://www.infineon.com/ModusToolboxLibraryManager) to choose the BSP for the RDK2. You can use the Library Manager to select or update the BSP and firmware libraries used in this application. To access the Library Manager, click the link from the **Quick Panel**.
 
    You can also just start the application creation process again and select a different kit.
 
